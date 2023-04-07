@@ -1,0 +1,11 @@
+config,avg_return,avg_ep_len
+VPG_Pytorch_l1_s32,157.2,157.2
+VPG_Pytorch_l3_s22,138.4,138.4
+VPG_Pytorch_l3_s27,159.2,159.2
+VPG_Pytorch_l3_s39,200.0,200.0
+VPG_Pytorch_l2_s36,124.4,124.4
+VPG_Pytorch_l1_s35,200.0,200.0
+VPG_Pytorch_l2_s32,183.2,183.2
+VPG_Pytorch_l3_s26,91.6,91.6
+VPG_Pytorch_l2_s22,87.6,87.6
+VPG_Pytorch_l3_s34,76.6,76.6
