@@ -1,6 +1,13 @@
-# Project Movie Ratings VPG MangoDB MapReduce 04.2023
+# Project Movie Ratings VPG MangoDB MapReduce Hadoop 04.2023
 
-This project demonstrates how to use Hadoop with MapReduce in a local mode on Linux Ubuntu  to calculate average movie ratings.
+1. This project demonstrates how to use Hadoop with MapReduce in a local mode on Linux Ubuntu  to calculate average movie ratings.
+2. Then after preprocessing it computes the similarity between movies based on their genres, tags, or user ratings. The Map function emits pairs of movie IDs and their associated features, while the Reduce function computes a similarity score between the pairs.
+3. Then it shows how to set up MongoDB database
+4. Creates Reinforcement Learning environment
+5. Implements the VPG agent using PyTorch and Numpy
+6. Evaluates the VPG agent
+7. Compute performance metrics using MapReduce
+8. Stores and tracks the agent's performance in MongoDB:
 
 ## Installing JDK20, Hadoop and needed dependencies
 1. Download JDK20 or newer from Oracle.com:
@@ -18,7 +25,7 @@ source .bashrc
 6.Verify the Java installation:
 java -version
 
-7.Now Hadoop 3.3.5 -> I have found that it is best to follow this guide:
+7.Now for "Hadoop 3.3.5", I have found that it is best to follow this guide:
 https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html
 ## Map Reduce python script and data for an example
 ```
