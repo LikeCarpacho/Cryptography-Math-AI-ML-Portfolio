@@ -12,20 +12,20 @@
 ## Installing JDK20, Hadoop and needed dependencies
 1. Download JDK20 or newer from Oracle.com:
 wget https://download.oracle.com/java/20/latest/jdk-20_linux-x64_bin.tar.gz
-2.Extract it:
+2. Extract it:
 tar -xvf jdk-20_linux-x64_bin.tar.gz
-3.Move it to desired location
+3. Move it to desired location
 sudo mkdir -p /usr/lib/jvm
 sudo mv jdk-20 /usr/lib/jvm
-4.Set JAVA_HOME environment variable and update PATH:
+4. Set JAVA_HOME environment variable and update PATH:
 export JAVA_HOME=/usr/lib/jvm/jdk-20
 export PATH=$PATH:$JAVA_HOME/bin
-5.Apply the changes by running:
+5. Apply the changes by running:
 source .bashrc
-6.Verify the Java installation:
+6. Verify the Java installation:
 java -version
 
-7.Now for "Hadoop 3.3.5", I have found that it is best to follow this guide:
+7. Now for "Hadoop 3.3.5", I have found that it is best to follow this guide:
 https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html
 ## Map Reduce python script and data for an example
 ```
