@@ -70,7 +70,7 @@ if __name__ == '__main__':
     elif sys.argv[1] == 'reduce':
         reducer()
 ```
-data is downloaded file rating.csv from https://www.kaggle.com/grouplens/movielens-20m-dataset
+Here, the data is a downloaded file rating.csv from https://www.kaggle.com/grouplens/movielens-20m-dataset
 ## Running the MapReduce Job
 
 1. Copy your Python script to the `scripts` folder, and your data file to the `data` folder. Note that when you copy files to these folders, they become the file itself, not directories containing the files.
